@@ -1,0 +1,31 @@
+{
+  "name": "consolecolorifi",
+  "version": "1.0.0",
+  "description": "color your console message with different color",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NilFahm/consolecolorifi.git"
+  },
+  "keywords": [
+    "console log colors",
+    "colorifi logs"
+  ],
+  "author": "Nil M <nil.fahm@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/NilFahm/consolecolorifi/issues"
+  },
+  "homepage": "https://github.com/NilFahm/consolecolorifi#readme",
+  "devDependencies": {
+    "typescript": "^5.1.6"
+  },
+  "files": [
+    "lib/**/*"
+  ]
+}
