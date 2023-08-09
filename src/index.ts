@@ -11,7 +11,7 @@ export class log {
         console.log(`%c ${msg}`, 'color:black; background:yellow');
     }
 
-    // static custom(msg: string, color: string, background: string) {
-
-    // }
+    static custom(msg: string, style:string) {
+        console.log(`%c ${msg}`, `${style}`);
+    }
 }
